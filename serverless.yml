@@ -1,4 +1,4 @@
-org: sebastianreategui11
+org: reateguisebastian
 service: api-sismos-igp
 
 provider:
@@ -6,7 +6,7 @@ provider:
   runtime: python3.13
   timeout: 30  # El scraping puede demorar unos segundos extra
   iam:
-    role: arn:aws:iam::344491983971:role/LabRole
+    role: arn:aws:iam::931952830916:role/LabRole
 
 functions:
   extraer_sismos:
