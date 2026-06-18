@@ -1,0 +1,34 @@
+# ========================
+# Serverless Framework
+# ========================
+.serverless/
+
+# ========================
+# Node.js (Plugins de Serverless)
+# ========================
+node_modules/
+package-lock.json
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# ========================
+# Variables de Entorno / Secretos
+# ========================
+.env
+.env.*
+
+# ========================
+# Archivos del Sistema Operativo
+# ========================
+.DS_Store
+Thumbs.db
